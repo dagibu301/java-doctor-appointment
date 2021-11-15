@@ -3,5 +3,11 @@ public class Main {
 
         Doctor myDoctor = new Doctor("John Wick");
         myDoctor.showName();
+        myDoctor.showId();
+        System.out.println(Doctor.id);
+
+        Doctor mySurgeonDoctor = new Doctor("Surgeon Ryan");
+        mySurgeonDoctor.showId();
+        System.out.println(Doctor.id);
     }
 }
