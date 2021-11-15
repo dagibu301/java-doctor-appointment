@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Doctor myDoctor = new Doctor();
-        myDoctor.name = "John Wick";
+        Doctor myDoctor = new Doctor("John Wick");
         myDoctor.showName();
     }
 }

@@ -1,7 +1,11 @@
 public class Doctor {
     int id;
-    String name;
     String speciality;
+    String name;
+
+    Doctor(String initialName) {
+        name = initialName;
+    }
 
     // Methods
     public void showName() {
