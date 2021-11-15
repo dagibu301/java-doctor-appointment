@@ -3,9 +3,14 @@ public class Doctor {
     String speciality;
     String name;
 
-    Doctor(String initialName) {
+    Doctor() {
         id++;
-        name = initialName;
+    }
+
+    Doctor(String name, String speciality) {
+        id++;
+        this.name = name;
+        this.speciality = speciality;
     }
 
     // Methods
