@@ -1,6 +1,6 @@
-import java.util.Date;
+import model.Doctor;
 
-import static ui.UIMenu.*;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,10 +16,10 @@ public class Main {
             System.out.println(availableAppointment.getDate() + " " + availableAppointment.getTime());
         }
 
-        /*Doctor mySurgeonDoctor = new Doctor("Surgeon Ryan", "surgeon");
+        /*model.Doctor mySurgeonDoctor = new model.Doctor("Surgeon Ryan", "surgeon");
         mySurgeonDoctor.showId();
 
-        Patient patient = new Patient("David", "david@mail.com");
+        model.Patient patient = new model.Patient("David", "david@mail.com");
         patient.setWeight(70);
         System.out.println(patient.getWeight());
 */
