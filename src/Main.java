@@ -6,11 +6,13 @@ public class Main {
         Doctor myDoctor = new Doctor("John Wick", "general");
         myDoctor.showName();
         myDoctor.showId();
-        System.out.println(Doctor.id);
 
         Doctor mySurgeonDoctor = new Doctor("Surgeon Ryan", "surgeon");
         mySurgeonDoctor.showId();
-        System.out.println(Doctor.id);
+
+        Patient patient = new Patient("David", "david@mail.com");
+        patient.setWeight(70);
+        System.out.println(patient.getWeight());
 
         /*showMenu();*/
     }
